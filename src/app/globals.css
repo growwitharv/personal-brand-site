@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink-950 text-ink-100 antialiased;
+  }
+
+  ::selection {
+    @apply bg-gold/30 text-white;
+  }
+}
+
+@layer components {
+  .container-narrow {
+    @apply mx-auto max-w-6xl px-6 lg:px-8;
+  }
+
+  .container-wide {
+    @apply mx-auto max-w-7xl px-6 lg:px-8;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-gold-light via-gold to-gold-dark bg-clip-text text-transparent;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+
+  .card {
+    @apply rounded-2xl border border-ink-800 bg-ink-900/50 p-8 backdrop-blur-sm transition-all duration-300 hover:border-ink-700 hover:bg-ink-900/80;
+  }
+
+  .label {
+    @apply text-xs font-medium uppercase tracking-[0.2em] text-gold;
+  }
+
+  .heading-xl {
+    @apply font-display text-4xl font-medium leading-tight tracking-tight md:text-5xl lg:text-6xl;
+  }
+
+  .heading-lg {
+    @apply font-display text-3xl font-medium leading-tight tracking-tight md:text-4xl;
+  }
+
+  .heading-md {
+    @apply font-display text-2xl font-medium leading-snug md:text-3xl;
+  }
+
+  .body-lg {
+    @apply text-lg leading-relaxed text-ink-300 md:text-xl;
+  }
+
+  .body-md {
+    @apply text-base leading-relaxed text-ink-400;
+  }
+}
