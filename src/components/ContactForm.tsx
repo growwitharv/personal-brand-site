@@ -140,12 +140,12 @@ export function ContactInfo() {
               LinkedIn
             </a>
             <a
-              href={siteConfig.social.twitter}
+              href={siteConfig.social.instagram}
               target="_blank"
               rel="noopener noreferrer"
               className="text-ink-400 hover:text-white"
             >
-              Twitter / X
+              Instagram 
             </a>
           </div>
         </div>
