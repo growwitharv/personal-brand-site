@@ -10,7 +10,7 @@ export const siteConfig = {
   },
   social: {
     linkedin: "https://www.linkedin.com/in/growwitharv/",
-    Instagram: "https://www.instagram.com/growwitharv",
+    instagram: "https://www.instagram.com/growwitharv",
   },
   calendlyUrl: "https://calendly.com",
 };

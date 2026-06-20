@@ -73,12 +73,12 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href={siteConfig.social.twitter}
+                  href={siteConfig.social.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-ink-400 transition-colors hover:text-white"
                 >
-                  Twitter / X
+                  Instagram 
                 </a>
               </li>
             </ul>
